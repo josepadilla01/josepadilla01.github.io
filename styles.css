@@ -1,0 +1,84 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.round {
+  border-radius: 50%;
+  width: 320px;
+  height: 480px;
+}
+
+.fa {
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #4286f4;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #414df4;
+  color: white;
+}
+
+#about-me{
+  padding-bottom: 100px;
+  background-color: #ffa500;
+  -webkit-animation: fadeIn 3s;
+}
+
+#hobbies {
+  margin-top: 100px;
+}
+
+#hobbies > .row{
+  padding-top: 70px;
+}
+
+#hobbies > .row > .col-sm > p{
+  padding-top: 70px;
+  font-size: 20px;
+}
+
+#skills{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#skills > .row > .card {
+  margin-right: 60px;
+}
+
+#skills > .row > .card > img{
+  width: 140px;
+  height: 140px;
+}
+
+#contact{
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#contact > p{
+  font-size: 20px;
+}
